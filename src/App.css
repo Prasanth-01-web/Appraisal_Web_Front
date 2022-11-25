@@ -1,0 +1,658 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Appraisal-Form {
+  width: 100%;
+  height: 100%;
+}
+
+.Appraisal-Form .Card-1 {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  border-radius: 2px;
+  background: transparent linear-gradient(95deg, #053B58 0%, #4EA3B4 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.Appraisal-Form .Card-1 h2,
+h3 {
+  color: #fff !important;
+  font-family: Helvetica, Regular;
+  width: 100% !important;
+}
+
+.Logout-Button {
+  /* font-size: 25px !important; */
+  float: right !important;
+  font-size: 22px !important;
+  bottom: 44px !important;
+  height: 0px !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.appraisal-form-table table {
+  background-color: #003454 !important;
+  color: #fff !important;
+  font-size: 17px !important;
+  width: 100% !important;
+}
+
+
+.Form-Table-Input {
+  width: 50% !important;
+}
+
+.Save-and-Next-Button {
+  width: 168px !important;
+  height: 45px !important;
+  background: rgba(79, 165, 182, 1) 0% !important;
+  background: linear-gradient(180deg, rgba(0, 53, 84, 1) 0%, rgba(91, 181, 196, 1) 100%) 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 11px !important;
+  text-align: center !important;
+  font: normal normal medium 21px/25px Roboto !important;
+  letter-spacing: 0px !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.Select-Input {
+  color: #000 !important;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+.appraisal-form-table table th {
+  border-top-left-radius: 2px !important;
+  background-color: #053B58 !important;
+  color: #fff !important;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: transparent !important;
+}
+
+/*------------------------------------------------------------- Login Css ----------------------------------------------------------*/
+
+.App1 {
+
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.login100-form .avataricon {
+  background: transparent linear-gradient(180deg, #003454 0%, #77DDE7 100%) 0% 0% no-repeat;
+
+
+}
+
+
+
+
+
+
+/*---------------------------------------------*/
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrap-login100 .Icon_material-live-help {
+  width: 40px;
+  position: relative;
+  bottom: 50px;
+  left: 160px;
+}
+
+
+.container-login100 {
+  width: 100%;
+
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent linear-gradient(180deg, #003454 0%, #77DDE7 100%) 0% 0% no-repeat
+}
+
+.wrap-login100 {
+  width: 420px;
+  height: 470px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.login100-form {
+  width: 100%;
+}
+
+.login100-form-title {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  /* font-family: Poppins-Bold; */
+  bottom: 33px;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+
+}
+
+.login100-form-title i {
+  font-size: 60px;
+}
+
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.input100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+}
+
+/*---------------------------------------------*/
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+  [ Button ]*/
+.container-login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.wrap-login100-form-btn {
+  width: 50%;
+  height: 40px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.login100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: rgba(79, 165, 182, 1) 0% !important;
+  background: transparent linear-gradient(180deg, rgba(0, 53, 84, 1) 0%, rgba(91, 181, 196, 1) 100%) 0% 0% no-repeat padding-box !important;
+
+
+
+
+
+}
+
+.login100-form-btn {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 40px;
+}
+
+
+/*------------------------------------------------------------------
+  [ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 77px 15px 33px 15px;
+  }
+}
+
+
+.validate-input {
+  position: relative;
+}
+
+/* @media (max-width: 992px) {
+    .alert-validate::before {
+      visibility: visible;
+      opacity: 1;
+    }
+  } */
+
+/*----------------------------------------- Employee Css ---------------------------------------------*/
+/* 
+.avatar {
+  width: 80px !important;
+  height: 80px !important;
+  line-height: 77px !important;
+  font-size: 63px !important;
+  top: 88px !important;
+  left: 61px !important;
+  
+ 
+} */
+
+.ava {
+  margin-left: 4.5em !important;
+  margin-top: 2em !important;
+  background-color: black !important;
+}
+
+.titles-h1 {
+  color: black;
+  margin-top: 70px;
+  font-size: 50px !important;
+}
+
+.name {
+  height: 70px;
+  margin-left: 150px;
+  color: black !important;
+}
+
+.employee {
+  height: 80px;
+  margin-left: 150px;
+  color: black !important;
+}
+
+.designation {
+  margin-left: 150px;
+  color: black !important;
+}
+
+.Empolyer-information {
+  background-color: #fff;
+}
+
+h1.titles-h1 {
+  color: black;
+  font-weight: 400;
+}
+
+.named {
+  background-color: #fff;
+}
+
+
+.worked {
+  margin-top: -100px;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 33.85);
+  font-weight: 700;
+  margin-left: 422px;
+}
+
+.Content {
+  border-radius: 23px 0px 0px 23px !important;
+  left: 638px !important;
+  width: 799px !important;
+  bottom: 214px !important;
+  color: white !important;
+  background-color: #053B58 !important;
+  padding: 4px 0px 63px 0px !important;
+  width: 637px !important;
+}
+
+.Qulification {
+  margin-top: 28px;
+}
+
+.primary-skills {
+  margin-top: 27px;
+}
+
+.Card-1 {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  border-radius: 2px;
+  background: transparent linear-gradient(95deg, #053B58 0%, #4EA3B4 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.Card-1 h2,
+h3 {
+  color: #fff !important;
+  font-family: Helvetica, Regular;
+}
+
+.Period-Label {
+  color: #fff !important;
+  font-size: 17px;
+}
+
+.Appraising-Input {
+  width: 75% !important;
+}
+
+.Period-Card {
+  border: none !important;
+  background-color: #003454 !important;
+  /* color: #fff !important; */
+}
+
+.Employee-Details {
+  color: #fff;
+  font-weight: 700;
+  height: 0px;
+}
+
+
+/* ---------------------------------------------------------- Employee Info -------------------------------------------------------*/
+
+.Employee-Info{
+  width: 100%;
+  height: 100%;
+}
+
+.Employee-Info .Card-1 {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  border-radius: 2px;
+  background: transparent linear-gradient(95deg, #053B58 0%, #4EA3B4 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.Employee-Info .Card-1 h2,
+h3 {
+  color: #fff !important;
+  font-family: Helvetica, Regular;
+}
+
+.Employee-Info-Avatar{
+  color: #fff !important;
+  background-color: #003454 !important;
+}
+
+.Employee-Info-Lable{
+  font-weight: 700;
+  color: #053B58;
+  font-size: 20px;
+}
+
+.Employee-Info-Text{
+  font-weight: 700;
+  color: #003454;
+  font-size: 30px;
+}
+
+.Employee-Info-Card{
+  background-color: #003454 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.Employee-Info-Details{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Employee-Card-1{
+  border: none !important;
+}
+
+.Employee-Card-2{
+  border: none !important;
+}
+
+.Employee-Button{
+  border: none !important;
+  font-size: 20px !important; 
+  text-align: center !important;
+  color: #003454 !important;
+  font-size: 25px !important;
+}
+
+/* .Employee-Button:hover{
+  border-bottom: 2px solid #003454 !important;
+  padding-top: 2px !important;
+  text-decoration: underline solid #003454 !important;
+} */
+
+.Info-Details-Card{
+  background-color: #003454 !important;
+  color: #fff !important;
+}
+
+.Info-Text{
+  font-size: 20px;
+}
+
+.Info-Input{
+  width: 50% !important;
+}
+
+.Period-text{
+  color: #003454;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.Date-Input{
+  width: 80% !important;
+}
+
+
+/* -----------------------------------------------------table info---------------------------------------------------------- */
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_td,
+.table_th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table_tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table_tr:hover {
+  background-color: #ddd;
+}
+
+.table_th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #003454;
+  color: white;
+}
+
+.table-button{
+  border: none !important;
+  background-color: transparent !important;
+  padding-left: 30% !important;
+}
+
+.Search-Button{
+  width: 50% !important;
+}
+
+.Employee-Info-Input{
+  width: 80% !important;
+}
+
+.Date-Input-employee-info{
+  width: 100% !important;
+}
+
+
+/* ---------------------------------------------------------Compendency css-------------------------------------------------------- */
+
+.Compendency-Input{
+  width: 30% !important;
+  /* border-radius: 8px !important; */
+}
+
+/* -------------------------------------------------------------Training Css------------------------------------------------------ */
+
+.Training-Row-1{
+  background-color: #003454 !important;
+  color: #fff !important;
+}
+
+.Training-Form-Input{
+  width: 70% !important;
+}
+
+.Training-Text{
+  font-size: 17px !important;
+  color: #fff !important;
+}
+
+.Training-Form-text{
+  font-size: 25px !important;
+  color: #003454 !important;
+}
+
+.Training-Form-Input-2{
+  width: 55% !important;
+}
+
+/* .Training-Form .ant-upload-list-item-info .ant-upload-text-icon .anticon {
+  color: #fff !important;
+  font-size: 14px !important;
+  padding-bottom: 33px !important;
+}
+
+.Training-Form .ant-upload-list-item-card-actions .anticon {
+  color: #fff !important;
+  transition: all 0.3s;
+  position:  relative ;
+  bottom: 80% !important;
+} */
+
+.Training-Form-Icon{
+  color: #003454 !important;
+  font-size: 25px !important;
+  cursor: pointer;
+  border: none !important;
+}
+
+.Training-Form-Delete-Icon{
+  cursor: pointer !important;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+.Admin-Rating-Input{
+  width: 25% !important;
+  border-radius: 5px !important;
+}
